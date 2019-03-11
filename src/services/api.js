@@ -1,6 +1,6 @@
 const request = require('request');
 const util = require('util');
-const calculateYears = require('../functions/calculateYear');
+const functions = require('../functions');
 
 const url = "http://numbersapi.com/random/year";
 
@@ -14,8 +14,8 @@ module.exports = async (data) => {
         data = data.body.match(/\d+/)[0];
 
         // returns true or false as value
-        const result = await calculateYears(data);
-
+        const result = await functions.calculateYear(data);
+        
         // logs the result based on it's condition
         if (result) console.log(`the year ${data} is bisexth`);
         else console.log(`the year ${data} is not bisexth`);

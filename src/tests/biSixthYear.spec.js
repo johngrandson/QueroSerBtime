@@ -1,7 +1,7 @@
-const calculateYear = require('../functions/calculateYear')
+const api = require('../');
 
 test('must return true if its bisexth', () => {
-  return calculateYear().then(data => {
+  return api().then(data => {
     expect(data).toBe(true);
   });
 });

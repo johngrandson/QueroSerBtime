@@ -6,14 +6,25 @@ const url = "http://numbersapi.com/random/year";
 
 const consume = util.promisify(request);
 
-// consume the API data.
-consume(url).then(data => {
-    //  then extract the first number in the string
-    data = data.body.match(/\d+/)[0];
+module.exports = async (data) => {
+    try {
 
-    // returns true or false as value
-    return calculateYears(data);
+        data = await consume(url);
+        //  then extract the first number in the string
+        data = data.body.match(/\d+/)[0];
 
-}).catch(err => console.log('error: ', err))
+        // returns true or false as value
+        const result = await calculateYears(data);
 
-module.exports = consume;
+        if (result) console.log(`the year ${data} is bisexth`);
+        else console.log(`the year ${data} is not bisexth`);
+
+        return result;
+
+    } catch (error) {
+        console.log(`error: ${error}`)
+    }
+    // consume the API data.
+}
+
+

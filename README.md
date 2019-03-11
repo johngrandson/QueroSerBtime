@@ -27,8 +27,10 @@ Escreva uma função que determina se um determinado ano informado é bissexto o
 
 # [Como usar o projeto?]
 
-`accesse a raiz do projeto 'QueroSerBtime'`
+`accesse a pasta src/ dentro do projeto 'QueroSerBtime'`
 
-`Então rode o comando npm i e depois npm test`
+`Então rode o comando npm i e depois node api.js`
+
+`Para rodar o teste unitário, acesse a raiz do projeto e rode o comando npm test`
 
 `Para o teste ter sucesso, deve retornar true caso o ano passado seja bisexto, caso contrário retornará falso`

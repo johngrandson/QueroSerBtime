@@ -10,7 +10,7 @@ O ano for divisível por 4, mas não divisível por 100, exceto se ele for tamb�
 Exemplos:
 
 
-## [Local]
+## [Datas]
 
 1600
 1732

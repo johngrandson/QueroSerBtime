@@ -31,6 +31,6 @@ Alameda Vicente Pinzon, 54 - Vila Olimpia, São Paulo - SP | CUBO (Itaú)
 
 `accesse a raiz do projeto 'QueroSerBtime'`
 
-`Então rode o comando npm test`
+`Então rode o comando npm i e depois npm test`
 
 `Para o teste ter sucesso, deve retornar true caso o ano passado seja bisexto, caso contrário retornará falso`

@@ -9,20 +9,19 @@ Um determinado ano é bissexto se:
 O ano for divisível por 4, mas não divisível por 100, exceto se ele for também divisível por 400.
 Exemplos:
 
-
-## [Datas]
-
 1600
 1732
 1888
 1944
 2008
+
 Não são bissextos por exemplo:
 
 1742
 1889
 1951
 2011
+
 Escreva uma função que determina se um determinado ano informado é bissexto ou não.
 
 # [Como usar o projeto?]

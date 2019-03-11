@@ -25,8 +25,6 @@ Não são bissextos por exemplo:
 2011
 Escreva uma função que determina se um determinado ano informado é bissexto ou não.
 
-Alameda Vicente Pinzon, 54 - Vila Olimpia, São Paulo - SP | CUBO (Itaú)
-
 # [Como usar o projeto?]
 
 `accesse a raiz do projeto 'QueroSerBtime'`
